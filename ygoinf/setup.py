@@ -17,5 +17,5 @@ setup(
     packages=find_packages(include='ygoinf*'),
     long_description="",
     install_requires=INSTALL_REQUIRES,
-    python_requires=">=3.10",
+    python_requires=">=3.9",
 )

@@ -96,7 +96,7 @@ def init_code_list(code_list_file):
                 line = line.strip()
                 if len(line) == 0:
                     continue
-                code_to_id[int(line)] = i
+                code_to_id[int(line.split()[0])] = i
                 i += 1
 
 
